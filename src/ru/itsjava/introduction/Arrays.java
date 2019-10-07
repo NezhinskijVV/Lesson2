@@ -1,4 +1,4 @@
-package ru.itsjava;
+package ru.itsjava.introduction;
 
 import java.util.Scanner;
 
@@ -41,31 +41,34 @@ public class Arrays {
 //        scan.close();                     //Не забываем закрывать поток ввода-вывода!
 //
 
-        //Ввести число 5. Если ввели не 5  -> ошибка :( Вы ввели не 5 , а ... . Введите пожалуйста число 5!
-        Scanner scan = new Scanner(System.in);
-        int res;
-        while ((res = scan.nextInt()) != 5) {
-            System.out.println("Вы ввели не 5 , а " + res + " . Введите пожалуйста число 5!");
-        }
-        System.out.println("Спасибо, что ввели 5");
-        scan.close();
+//        //Ввести число 5. Если ввели не 5  -> ошибка :( Вы ввели не 5 , а ... . Введите пожалуйста число 5!
+//        Scanner scan = new Scanner(System.in);
+//        int res;
+//        while ((res = scan.nextInt()) != 5) {
+//            System.out.println("Вы ввели не 5 , а " + res + " . Введите пожалуйста число 5!");
+//        }
+//        System.out.println("Спасибо, что ввели 5");
+//        scan.close();
+//
+//        String[] arrayOfString = new String[10];
+//        arrayOfString[0] = "Элемент 0";
+//        arrayOfString[1] = "Элемент 1";
+//        arrayOfString[2] = "Элемент 2";
+//        arrayOfString[3] = "Элемент 3";
+//        arrayOfString[4] = "Элемент 4";
+//        arrayOfString[5] = "Элемент 5";
+//        arrayOfString[6] = "Элемент 6";
+//        arrayOfString[7] = "Элемент 7";
+//        arrayOfString[8] = "Элемент 8";
+//        arrayOfString[9] = "Элемент 9";
+//
+//        //for each
+//        for(String elem : arrayOfString){
+//            System.out.println(elem);
+//        }
 
-        String[] arrayOfString = new String[10];
-        arrayOfString[0] = "Элемент 0";
-        arrayOfString[1] = "Элемент 1";
-        arrayOfString[2] = "Элемент 2";
-        arrayOfString[3] = "Элемент 3";
-        arrayOfString[4] = "Элемент 4";
-        arrayOfString[5] = "Элемент 5";
-        arrayOfString[6] = "Элемент 6";
-        arrayOfString[7] = "Элемент 7";
-        arrayOfString[8] = "Элемент 8";
-        arrayOfString[9] = "Элемент 9";
-
-        //for each
-        for(String elem : arrayOfString){
-            System.out.println(elem);
-        }
+        System.out.println(63 % 2);
+        System.out.println(63/2);
     }
 }
 

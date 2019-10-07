@@ -1,4 +1,4 @@
-package ru.itsjava;
+package ru.itsjava.introduction;
 
 /**
  * Created by Nezhinskij VV on 25.09.2019.
